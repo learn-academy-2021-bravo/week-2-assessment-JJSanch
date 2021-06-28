@@ -18,7 +18,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: Taking an object and placing them into different variables
 
-  Researched answer: Destructuring is taking the properties of an object and placing them into individual, receallable variables.
+  Researched answer: Taking an object keys and set into variables, the pathway through the object to that particular key
 
 
 
@@ -26,7 +26,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: Passes information from the parent's contructor, super implies there is a parent calss
 
 
 
@@ -34,15 +34,15 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: n/a
 
-  Researched answer: Allows one to wrap or group muliple elements without adding an extra node to the DOM
+  Researched answer: Must return just one JSX elements, wraps all of the content returning from a component, 
 
 
 
 5. What is JSX?
 
-  Your answer: JSX is a syntax used to combine html and JS for use with react
+  Your answer: JSX is a syntax used to combine html and JS for use with react.  Marriage between JS and html
 
-  Researched answer: JSX is a syntax extension to JS.  Behaves like html with a few exceptions.
+  Researched answer: JSX is a syntax extension to JS.  Behaves like html with a few exceptions.  Created by React devs to render html to the dom inside of a JS file.
 
 
 
@@ -50,7 +50,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:
 
-  Researched answer:
+  Researched answer: Functions are "hoisted" to the top of a call stack, function 
 
 
 
@@ -59,7 +59,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 Research and define the following terms to the best of your ability.
 
 1. React props: "Props" stands for properties.  Used for passing information from one component to another
-2. React lifecycle methods: The lifecycle of a a react component is mounting, upodating and unmounting.
-3. Logic/smart component: Smart components call out to things outside of themselves.
-4. Display/dumb component:
+2. React lifecycle methods: The lifecycle of a a react component is mounting, upodating and unmounting. Events from cretion to the end of the component
+3. Logic/smart component: Smart components call out to things outside of themselves. Manage data flow to other component.
+4. Display/dumb component: UI focused, just do what is told.
 5. DOM Events:
