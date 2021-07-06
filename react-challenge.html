@@ -7,7 +7,6 @@
 <!-- HINT: Check the console in the browser developer tools for errors. -->
 
 
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -35,12 +34,16 @@
 
         handleMoodOptions = () => {
           let randomIndex = Math.floor(Math.random() * this.state.moods.length )
-          this.setState({ currentMood: moods[randomIndex] })
+          //added this.state to moods to define moods and call on the properties from class App
+          this.setState({ currentMood: this.state.moods[randomIndex] })
         }
 
         render(){
           return(
 
+          // fragment needed
+          <>
+          
               <h1>Welcome to the Mood Meter App</h1>
 
               <h3>Mood Options:</h3>
@@ -48,11 +51,12 @@
               <div style={{ fontSize: "40px", height: "50px"}}>
                 { this.state.currentMood }
               </div>
-
-              <button onClick={ handleMoodOptions }>
+              //needed to add this.state to line 54 to pass props to the child component which handleMoodOptions
+              <button onClick={ this.state.handleMoodOptions }>
                 Click Here For Next Mood option
               </button>
-
+          </>
+          //  fragment needed   
           )
         }
       }
